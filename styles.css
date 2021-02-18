@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Zilla+Slab:wght@300&display=swap');
+
+body{
+    text-align: center;
+    font-family: 'Zilla Slab', serif;
+    background-image: radial-gradient(#013220,#008000); 
+    color: white;
+}
+
+.main-container{
+    background-color: transparent;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+
+.main-container div{
+    margin: 20px;
+}
+
+.first{
+    height: 40vh;
+    width:40vh;
+    background-color: transparent;
+    align-items: center;
+    justify-content: center;
+}
+
+.second{
+    height:40vh;
+    width: 40vh;
+    background-color: transparent;
+    align-items: center;
+    justify-content: center;
+}
+
+.third{
+    height: 40vh;
+    width: 40vh;
+    background-color: transparent;
+    align-items: center;
+    justify-content: center;
+}
+
+.title{
+    margin-top: 60px;
+}
+
+.time-stamp{
+    background-color: transparent;
+    bottom: 0;
+    width: 20vh;
+    height: 20vh;
+   
+}
+
+#time-stamp{
+    margin-top: 50px;
+}
+
+#hours{
+    margin-top: 100px;
+    font-size: 50px;
+}
+
+#minutes{
+    margin-top: 100px;
+    font-size: 50px;
+}
+
+#seconds{
+    margin-top: 100px;
+    font-size: 50px;
+}
